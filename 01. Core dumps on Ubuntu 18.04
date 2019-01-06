@@ -1,0 +1,3 @@
+ulimit -c unlimited
+mkdir /tmp/cores/
+sudo sysctl -w kernel.core_pattern=/tmp/cores/core-%e.%p.%h.%t
